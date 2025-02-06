@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Start Guide</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Getting Started with Docker</h1>
+    <p>Follow these steps to start using Docker:</p>
+    
+    <h2>1. Install Docker</h2>
+    <p>Download and install Docker from the official site: <a href="https://www.docker.com/get-started" target="_blank">Docker Official Website</a></p>
+    
+    <h2>2. Verify Installation</h2>
+    <p>Run the following command in your terminal or command prompt:</p>
+    <pre>docker --version</pre>
+    
+    <h2>3. Run Your First Container</h2>
+    <p>Use this command to run a simple Hello World container:</p>
+    <pre>docker run hello-world</pre>
+    
+    <h2>4. List Running Containers</h2>
+    <p>Check running containers with:</p>
+    <pre>docker ps</pre>
+    
+    <h2>5. Stop a Running Container</h2>
+    <p>Use the container ID to stop it:</p>
+    <pre>docker stop &lt;container_id&gt;</pre>
+    
+    <h2>6. Remove a Container</h2>
+    <p>Remove an unused container with:</p>
+    <pre>docker rm &lt;container_id&gt;</pre>
+    
+    <h2>7. Pull an Image</h2>
+    <p>Download an image from Docker Hub:</p>
+    <pre>docker pull ubuntu</pre>
+    
+    <h2>8. Run an Interactive Shell</h2>
+    <p>Run an interactive terminal inside a container:</p>
+    <pre>docker run -it ubuntu bash</pre>
+</body>
+</html>
