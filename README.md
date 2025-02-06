@@ -1,1 +1,8 @@
-This Repo contains a dockerfile to run simple html page application via docker container in localhost of windows
+Dockerized Single HTML Page Application
+This repository contains a simple HTML page application that can be run locally on Windows using Docker.
+
+Features
+- Dockerized HTML page application.
+- Utilizes Dockerfile for containerization.
+- Runs on localhost in Windows environment.
+
